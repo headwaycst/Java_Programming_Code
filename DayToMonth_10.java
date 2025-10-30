@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class DayToMonth_10 {
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Day- ");
+        int day = sc.nextInt();
+        int month = day/30;
+        int newDay = day-(month*30);
+        System.out.println(day+" day is equal to "+month+" month and "+newDay+" day.");
+    }
+}
